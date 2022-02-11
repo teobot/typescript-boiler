@@ -1,0 +1,27 @@
+{
+  "name": "buddy-branch-image-generator",
+  "version": "1.0.0",
+  "description": "buddy branch leaderboard image generator",
+  "scripts": {
+    "start": "ts-node ./src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/teobot/buddy-branch-image-generator.git"
+  },
+  "author": "Theo Clapperton",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/teobot/buddy-branch-image-generator/issues"
+  },
+  "homepage": "https://github.com/teobot/buddy-branch-image-generator#readme",
+  "devDependencies": {
+    "@types/node": "^17.0.17",
+    "convict": "^6.2.1",
+    "ts-node": "^10.5.0",
+    "typescript": "^4.5.5"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.0"
+  }
+}
